@@ -2,7 +2,6 @@ word counter program:
 def count_words(paragraph):
  
     words = paragraph.split()
-    # Return the number of words
     return len(words)
 
 def main():
